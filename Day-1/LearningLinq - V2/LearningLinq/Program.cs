@@ -12,12 +12,12 @@ namespace LearningLinq
         static void Main(string[] args)
         {
             var products = new MyCollection<Product>();
-            products.Add(new Product() { Id = 1, Name = "Pen", Cost = 20, Units = 90});
-            products.Add(new Product() { Id = 7, Name = "Hen", Cost = 80, Units = 40 });
-            products.Add(new Product() { Id = 4, Name = "Ten", Cost = 40, Units = 80 });
-            products.Add(new Product() { Id = 8, Name = "Den", Cost = 60, Units = 30 });
-            products.Add(new Product() { Id = 3, Name = "Len", Cost = 30, Units = 60 });
-            products.Add(new Product() { Id = 9, Name = "Ken", Cost = 10, Units = 20 });
+            products.Add(new Product() { Id = 1, Name = "Pen", Cost = 20, Units = 90, Category = 1 });
+            products.Add(new Product() { Id = 7, Name = "Hen", Cost = 80, Units = 40, Category = 1 });
+            products.Add(new Product() { Id = 4, Name = "Ten", Cost = 40, Units = 80, Category = 2 });
+            products.Add(new Product() { Id = 8, Name = "Den", Cost = 60, Units = 30, Category = 1 });
+            products.Add(new Product() { Id = 3, Name = "Len", Cost = 30, Units = 60, Category = 2 });
+            products.Add(new Product() { Id = 9, Name = "Ken", Cost = 10, Units = 20, Category = 1 });
 
             Console.WriteLine("Initial List");
             for(var i=0;i<products.Count;i++)
@@ -91,6 +91,31 @@ namespace LearningLinq
 
             Console.WriteLine("Are there any products with cost> 50 ? {0}", products.Any(p => p.Cost > 50));
             Console.WriteLine("Are all products with cost> 50 ? {0}", products.All(p => p.Cost > 50));
+            Console.WriteLine();
+            Console.WriteLine("Grouping By Category");
+            var productsGroupedByCategory = products.GroupBy<int>(p => p.Category);
+            foreach (var categoryGroup in productsGroupedByCategory)
+            {
+                Console.WriteLine("Category = {0}", categoryGroup.Key);
+                for (int i = 0; i < categoryGroup.Value.Count; i++)
+                {
+                    Console.WriteLine("\t" + categoryGroup.Value[i]);
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+            Console.WriteLine("Group by cost");
+            var productsGroupedByCost = products.GroupBy<string>(p => p.Cost > 50 ? "Costly" : "Affordable");
+            foreach (var costGroup in productsGroupedByCost)
+            {
+                Console.WriteLine("Group = {0}", costGroup.Key);
+                for (int i = 0; i < costGroup.Value.Count; i++)
+                {
+                    Console.WriteLine("\t" + costGroup.Value[i]);
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
             Console.ReadLine();
         }
 

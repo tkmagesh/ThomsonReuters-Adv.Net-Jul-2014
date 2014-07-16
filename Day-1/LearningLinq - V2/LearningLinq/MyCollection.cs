@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace LearningLinq
 {
@@ -170,6 +171,20 @@ namespace LearningLinq
             }
             return true;
         }
+
+        public Dictionary<TKey, MyCollection<T>> GroupBy<TKey>(Func<T, TKey> keySelector)
+        {
+            var result = new Dictionary<TKey, MyCollection<T>>();
+            foreach (var item in _list)
+            {
+                var tItem = (T) item;
+                var key = keySelector(tItem);
+                if (!result.ContainsKey(key))
+                    result[key] = new MyCollection<T>();
+                result[key].Add(tItem);
+            }
+            return result;
+        } 
 
 
     }

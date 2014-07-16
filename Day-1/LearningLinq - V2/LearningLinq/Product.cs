@@ -9,6 +9,8 @@ namespace LearningLinq
         public decimal Cost { get; set; }
         
         public int Units { get; set; }
+
+        public int Category { get; set; }
         
         public override string ToString()
         {

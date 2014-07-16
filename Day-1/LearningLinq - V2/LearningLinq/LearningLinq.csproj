@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="CompareProductDelegate.cs" />
     <Compile Include="CostlyProductCriteria.cs" />
+    <Compile Include="Dictionary.cs" />
     <Compile Include="FilterCriteriaDelegate.cs" />
     <Compile Include="IntAttributeSelectorDelegate.cs" />
     <Compile Include="IItemComparer.cs" />
