@@ -48,6 +48,7 @@
     <Compile Include="IntAttributeSelectorDelegate.cs" />
     <Compile Include="IItemComparer.cs" />
     <Compile Include="IItemFilterCriteria.cs" />
+    <Compile Include="MyUtils.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductCompareByCost.cs" />
     <Compile Include="ProductCompareById.cs" />

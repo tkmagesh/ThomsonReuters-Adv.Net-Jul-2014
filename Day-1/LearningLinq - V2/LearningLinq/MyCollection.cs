@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 
 namespace LearningLinq
 {
-    public class MyCollection<T>
+    public class MyCollection<T> :IEnumerable<T>, IEnumerator<T>
     {
         private ArrayList _list = new ArrayList();
         public void Add(T item)
@@ -92,100 +93,52 @@ namespace LearningLinq
         }
 
 
-        public MyCollection<T> Filter(IItemFilterCriteria<T> criteria)
+        public IEnumerator<T> GetEnumerator()
         {
-            var result = new MyCollection<T>();
-            foreach (var item in _list)
+            return this;
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this;
+        }
+
+        private int _index = -1;
+        public T Current
+        {
+            get { return (T) _list[_index]; }
+        }
+
+        public void Dispose()
+        {
+            _index = -1;
+        }
+
+        object IEnumerator.Current
+        {
+            get
             {
-                var tItem = (T)item;
-                if (criteria.IsSatisfiedBy(tItem))
-                    result.Add(tItem);
+
+                return (T)_list[_index];
             }
-            return result;
         }
 
-        //public MyCollection<T> Filter(Func<T,bool> criteria)
-        public MyCollection<T> Filter(Predicate<T> criteria)
+        public bool MoveNext()
         {
-            var result = new MyCollection<T>();
-            foreach (var item in _list)
+            _index++;
+            if (_index >= _list.Count)
             {
-                var tItem = (T) item;
-                if (criteria(tItem))
-                    result.Add(tItem);
-            }
-            return result;
-        }
-
-        //public int Min(IntAttributeSelectorDelegate<T> selector)
-        public int Min(Func<T,int> selector)
-        {
-            var result = int.MaxValue;
-            for (var i = 0; i < _list.Count; i++)
-            {
-                var tItem = (T) _list[i];
-                var value = selector(tItem);
-                if (value < result) result = value;
-            }
-            return result;
-        }
-
-        //public int Sum(IntAttributeSelectorDelegate<T> selector)
-        public int Sum(Func<T,int> selector)
-        {
-            var result = 0;
-            for (var i = 0; i < _list.Count; i++)
-            {
-                var tItem = (T)_list[i];
-                result += selector(tItem);
-            }
-            return result;
-        }
-
-        //public int Avg(IntAttributeSelectorDelegate<T> selector)
-        public int Avg(Func<T,int> selector)
-        {
-            return Sum(selector)/_list.Count;
-        }
-
-
-        //public bool Any(FilterCriteriaDelegate<T> criteria)
-        public bool Any(Predicate<T> criteria)
-        {
-            foreach (var item in _list)
-            {
-                var tItem = (T) item;
-                if (criteria(tItem))
-                    return true;
-            }
-            return false;
-        }
-
-        public bool All(Predicate<T> criteria)
-        {
-            foreach (var item in _list)
-            {
-                var tItem = (T)item;
-                if (!criteria(tItem))
-                    return false;
+                Reset();
+                return false;
             }
             return true;
         }
 
-        public Dictionary<TKey, MyCollection<T>> GroupBy<TKey>(Func<T, TKey> keySelector)
+        public void Reset()
         {
-            var result = new Dictionary<TKey, MyCollection<T>>();
-            foreach (var item in _list)
-            {
-                var tItem = (T) item;
-                var key = keySelector(tItem);
-                if (!result.ContainsKey(key))
-                    result[key] = new MyCollection<T>();
-                result[key].Add(tItem);
-            }
-            return result;
-        } 
-
-
+            _index = -1;
+        }
     }
+
+    
 }

@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
+//using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
 
 namespace LearningLinq
 {
-    class Program
+   class Program
     {
         static void Main(string[] args)
         {
+           
+           
+
             var products = new MyCollection<Product>();
             products.Add(new Product() { Id = 1, Name = "Pen", Cost = 20, Units = 90, Category = 1 });
             products.Add(new Product() { Id = 7, Name = "Hen", Cost = 80, Units = 40, Category = 1 });
@@ -76,14 +79,18 @@ namespace LearningLinq
 
             Console.WriteLine("Filtering by costly products");
             var costlyProducts = products.Filter(new CostlyProductCriteria(30));
-            for (var i = 0; i < costlyProducts.Count; i++)
-                Console.WriteLine(costlyProducts[i]);
+            foreach (var costlyProduct in costlyProducts)
+            {
+                Console.WriteLine(costlyProduct);
+            }
             Console.WriteLine();
 
             Console.WriteLine("Filtering by overstocked products");
             var overStockedProducts = products.Filter(p => p.Units > 50);
-            for (var i = 0; i < overStockedProducts.Count; i++)
-                Console.WriteLine(overStockedProducts[i]);
+            foreach (var overStockedProduct in overStockedProducts)
+            {
+                Console.WriteLine(overStockedProduct);
+            }
             Console.WriteLine();
 
             Console.WriteLine("Minimum ID of product = {0}", products.Min(p => p.Id));
@@ -92,31 +99,33 @@ namespace LearningLinq
             Console.WriteLine("Are there any products with cost> 50 ? {0}", products.Any(p => p.Cost > 50));
             Console.WriteLine("Are all products with cost> 50 ? {0}", products.All(p => p.Cost > 50));
             Console.WriteLine();
+            
             Console.WriteLine("Grouping By Category");
-            var productsGroupedByCategory = products.GroupBy<int>(p => p.Category);
+            var productsGroupedByCategory = products.GroupBy(p => p.Category);
             foreach (var categoryGroup in productsGroupedByCategory)
             {
                 Console.WriteLine("Category = {0}", categoryGroup.Key);
-                for (int i = 0; i < categoryGroup.Value.Count; i++)
+                foreach (var product in categoryGroup.Value)
                 {
-                    Console.WriteLine("\t" + categoryGroup.Value[i]);
+                    Console.WriteLine("\t " + product);
                 }
                 Console.WriteLine();
             }
             Console.WriteLine();
             Console.WriteLine("Group by cost");
-            var productsGroupedByCost = products.GroupBy<string>(p => p.Cost > 50 ? "Costly" : "Affordable");
+            var productsGroupedByCost = products.GroupBy(p => p.Cost > 50 ? "Costly" : "Affordable");
             foreach (var costGroup in productsGroupedByCost)
             {
                 Console.WriteLine("Group = {0}", costGroup.Key);
-                for (int i = 0; i < costGroup.Value.Count; i++)
-                {
-                    Console.WriteLine("\t" + costGroup.Value[i]);
-                }
+                foreach(var product in costGroup.Value)
+                    Console.WriteLine("\t " + product);
                 Console.WriteLine();
             }
             Console.WriteLine();
             Console.ReadLine();
+
+            
+            
         }
 
         public static int CompareProductByUnits(Product p1, Product p2)
