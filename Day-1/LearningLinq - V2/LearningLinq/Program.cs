@@ -11,7 +11,7 @@ namespace LearningLinq
     {
         static void Main(string[] args)
         {
-            var products = new ProductsCollection();
+            var products = new MyCollection<Product>();
             products.Add(new Product() { Id = 1, Name = "Pen", Cost = 20, Units = 90});
             products.Add(new Product() { Id = 7, Name = "Hen", Cost = 80, Units = 40 });
             products.Add(new Product() { Id = 4, Name = "Ten", Cost = 40, Units = 80 });
@@ -23,12 +23,13 @@ namespace LearningLinq
             for(var i=0;i<products.Count;i++)
                 Console.WriteLine(products[i]);
             Console.WriteLine();
-
+            /*
             Console.WriteLine("After sorting (default - by id)");
             products.Sort();
             for (var i = 0; i < products.Count; i++)
                 Console.WriteLine(products[i]);
             Console.WriteLine();
+            */
 
             Console.WriteLine("After sorting by Cost");
             products.Sort(new ProductCompareByCost());

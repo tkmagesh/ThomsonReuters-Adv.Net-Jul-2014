@@ -45,13 +45,13 @@
     <Compile Include="CostlyProductCriteria.cs" />
     <Compile Include="FilterCriteriaDelegate.cs" />
     <Compile Include="IntAttributeSelectorDelegate.cs" />
-    <Compile Include="IProductComparer.cs" />
-    <Compile Include="IProductFilterCriteria.cs" />
+    <Compile Include="IItemComparer.cs" />
+    <Compile Include="IItemFilterCriteria.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductCompareByCost.cs" />
     <Compile Include="ProductCompareById.cs" />
     <Compile Include="ProductComparerByUnit.cs" />
-    <Compile Include="ProductsCollection.cs" />
+    <Compile Include="MyCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
