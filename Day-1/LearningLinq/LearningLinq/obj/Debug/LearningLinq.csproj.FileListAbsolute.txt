@@ -1,0 +1,5 @@
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-1\LearningLinq\LearningLinq\obj\Debug\LearningLinq.csprojResolveAssemblyReference.cache
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-1\LearningLinq\LearningLinq\bin\Debug\LearningLinq.exe
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-1\LearningLinq\LearningLinq\bin\Debug\LearningLinq.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-1\LearningLinq\LearningLinq\obj\Debug\LearningLinq.exe
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-1\LearningLinq\LearningLinq\obj\Debug\LearningLinq.pdb
