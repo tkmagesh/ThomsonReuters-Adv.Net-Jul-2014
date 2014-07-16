@@ -73,6 +73,18 @@ namespace LearningLinq
                 Console.WriteLine(products[i]);
             Console.WriteLine();
 
+            Console.WriteLine("Filtering by costly products");
+            var costlyProducts = products.Filter(new CostlyProductCriteria(30));
+            for (var i = 0; i < costlyProducts.Count; i++)
+                Console.WriteLine(costlyProducts[i]);
+            Console.WriteLine();
+
+            Console.WriteLine("Filtering by overstocked products");
+            var overStockedProducts = products.Filter(p => p.Units > 50);
+            for (var i = 0; i < overStockedProducts.Count; i++)
+                Console.WriteLine(overStockedProducts[i]);
+            Console.WriteLine();
+
 
             Console.ReadLine();
         }
@@ -84,6 +96,4 @@ namespace LearningLinq
             return 0;
         }
     }
-
-    
 }

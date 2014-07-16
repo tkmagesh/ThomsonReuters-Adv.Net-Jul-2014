@@ -90,7 +90,31 @@ namespace LearningLinq
         }
 
 
+        public ProductsCollection Filter(IProductFilterCriteria criteria)
+        {
+            var result = new ProductsCollection();
+            foreach (var item in _list)
+            {
+                var product = item as Product;
+                if (criteria.IsSatisfiedBy(product))
+                    result.Add(product);
+            }
+            return result;
+        }
+
+        public ProductsCollection Filter(FilterCriteriaDelegate criteria)
+        {
+            var result = new ProductsCollection();
+            foreach (var item in _list)
+            {
+                var product = item as Product;
+                if (criteria(product))
+                    result.Add(product);
+            }
+            return result;
+        }
+
     }
 
-    public delegate int CompareProductDelegate(Product p1, Product p2);
+    public delegate bool FilterCriteriaDelegate(Product product);
 }
