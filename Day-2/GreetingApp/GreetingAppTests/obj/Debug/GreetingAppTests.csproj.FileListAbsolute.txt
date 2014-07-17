@@ -1,0 +1,7 @@
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingAppTests\bin\Debug\GreetingAppTests.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingAppTests\bin\Debug\GreetingAppTests.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingAppTests\obj\Debug\GreetingAppTests.csprojResolveAssemblyReference.cache
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingAppTests\obj\Debug\GreetingAppTests.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingAppTests\obj\Debug\GreetingAppTests.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingAppTests\bin\Debug\GreetingApp.exe
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingAppTests\bin\Debug\GreetingApp.pdb

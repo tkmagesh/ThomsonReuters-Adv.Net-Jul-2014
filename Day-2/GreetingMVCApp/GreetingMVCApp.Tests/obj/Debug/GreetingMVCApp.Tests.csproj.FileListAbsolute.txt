@@ -1,0 +1,17 @@
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\GreetingMVCApp.Tests.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\GreetingMVCApp.Tests.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\obj\Debug\GreetingMVCApp.Tests.csprojResolveAssemblyReference.cache
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\obj\Debug\GreetingMVCApp.Tests.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\obj\Debug\GreetingMVCApp.Tests.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\GreetingMVCApp.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\System.Web.Http.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\System.Net.Http.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\GreetingMVCApp.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\System.Web.Http.xml
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\System.Net.Http.xml
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingMVCApp\GreetingMVCApp.Tests\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,7 @@
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\CalculatorWithUnitTests\CalculatorUnitTests\obj\Debug\CalculatorUnitTests.csprojResolveAssemblyReference.cache
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\CalculatorWithUnitTests\CalculatorUnitTests\bin\Debug\CalculatorUnitTests.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\CalculatorWithUnitTests\CalculatorUnitTests\bin\Debug\CalculatorUnitTests.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\CalculatorWithUnitTests\CalculatorUnitTests\bin\Debug\CalculatorWithUnitTests.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\CalculatorWithUnitTests\CalculatorUnitTests\bin\Debug\CalculatorWithUnitTests.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\CalculatorWithUnitTests\CalculatorUnitTests\obj\Debug\CalculatorUnitTests.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\CalculatorWithUnitTests\CalculatorUnitTests\obj\Debug\CalculatorUnitTests.pdb

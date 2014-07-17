@@ -1,0 +1,5 @@
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingApp\bin\Debug\GreetingApp.exe
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingApp\bin\Debug\GreetingApp.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingApp\obj\Debug\GreetingApp.csprojResolveAssemblyReference.cache
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingApp\obj\Debug\GreetingApp.exe
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-2\GreetingApp\GreetingApp\obj\Debug\GreetingApp.pdb
