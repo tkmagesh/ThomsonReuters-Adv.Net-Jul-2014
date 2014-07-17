@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.SessionState;
 using TaskManagerApp.Models;
 
 namespace TaskManagerApp.Repositories
@@ -12,6 +13,7 @@ namespace TaskManagerApp.Repositories
 
         static TaskRepository()
         {
+            
             _tasks = new List<Task>
             {
                 new Task(){Name = "Explore ASP.NET MVC", Id = 1, IsCompleted = false},
