@@ -7,7 +7,7 @@ namespace GreetingMVCApp.Tests
     [TestClass]
     public class GreetingControllerTests
     {
-        [TestMethod]
+       /* [TestMethod]
         public void When_Index_Invoked_With_Name_Greeting_Message_Is_Generated()
         {
             var controller = new GreetingController();
@@ -16,6 +16,6 @@ namespace GreetingMVCApp.Tests
 
             var resultMsg = viewResult.TempData["Message"];
             Assert.AreEqual("Hello Magesh, Welcome to ASP.NET MVC!", resultMsg);
-        }
+        }*/
     }
 }
