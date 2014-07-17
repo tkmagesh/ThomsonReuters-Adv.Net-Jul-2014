@@ -1,0 +1,35 @@
+﻿@using TaskManagerApp.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        .completed {
+            color: red;
+            text-decoration: line-through;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+    <body>
+        <h1>Task Manager</h1>
+       
+        <div>
+        
+        </div>
+        <ul>
+            @foreach (var task in (Task[]) TempData["Tasks"])
+            {
+                <li class="@(task.IsCompleted ? "completed" : "")">@task.Name</li>
+            }
+        </ul>
+        <a href="/Tasks/New">Add New Task</a>
+    </body>
+</html>
