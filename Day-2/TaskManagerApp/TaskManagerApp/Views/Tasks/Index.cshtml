@@ -27,7 +27,7 @@
         <ul>
             @foreach (var task in (Task[]) TempData["Tasks"])
             {
-                <li class="@(task.IsCompleted ? "completed" : "")">@task.Name</li>
+                <li class="@(task.IsCompleted ? "completed" : "")">@task.Name  @Html.ActionLink("Edit","Edit",new {Id = task.Id})</li>
             }
         </ul>
         <a href="/Tasks/New">Add New Task</a>

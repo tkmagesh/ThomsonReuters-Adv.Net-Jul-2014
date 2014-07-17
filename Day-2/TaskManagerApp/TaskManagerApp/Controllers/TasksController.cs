@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+//using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using TaskManagerApp.Models;
 using TaskManagerApp.Repositories;
 
 namespace TaskManagerApp.Controllers
@@ -28,13 +30,32 @@ namespace TaskManagerApp.Controllers
         [HttpGet]
         public ActionResult New()
         {
-            return View();
+            return View("NewOrEdit", new Task());
+        }
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var task = _taskRepository.Get(id);
+            return View("NewOrEdit", task);
         }
 
         [HttpPost]
-        public ActionResult New(string taskName)
+        public ActionResult Save(Task task)
         {
-            _taskRepository.AddNew(taskName);
+            if (!ModelState.IsValid)
+            {
+                return View("NewOrEdit", task);
+            }
+            if (task.Id == -1)
+            {
+                _taskRepository.AddNew(task);
+            }
+            else
+            {
+                _taskRepository.Update(task);
+            }
+            
             return RedirectToAction("Index");
         }
 

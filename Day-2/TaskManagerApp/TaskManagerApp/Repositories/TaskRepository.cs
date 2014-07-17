@@ -31,5 +31,25 @@ namespace TaskManagerApp.Repositories
             var newId = _tasks.Any() ? _tasks.Max(t => t.Id) + 1 : 1;
             _tasks.Add(new Task(){Name = taskName, Id = newId, IsCompleted = false});
         }
+
+        public void AddNew(Task task)
+        {
+            task.Id = _tasks.Any() ? _tasks.Max(t => t.Id) + 1 : 1;
+            _tasks.Add(task);
+        }
+
+        public Task Get(int id)
+        {
+            return _tasks.FirstOrDefault(t => t.Id == id);
+        }
+
+        public void Update(Task task)
+        {
+            var t = _tasks.FirstOrDefault(tk => tk.Id == task.Id);
+            t.Name = task.Name;
+            t.IsCompleted = task.IsCompleted;
+            t.Description = task.Description;
+
+        }
     }
 }

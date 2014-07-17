@@ -144,7 +144,7 @@
     <Content Include="Views\Tasks\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Tasks\New.cshtml" />
+    <Content Include="Views\Tasks\NewOrEdit.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

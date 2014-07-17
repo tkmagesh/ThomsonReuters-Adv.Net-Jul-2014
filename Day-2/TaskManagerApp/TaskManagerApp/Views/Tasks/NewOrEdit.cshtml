@@ -1,0 +1,57 @@
+﻿@using System.CodeDom
+@using TaskManagerApp.Models
+@model Task
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NewTask</title>
+    <style>
+        label {
+            display : block
+        }
+        .fieldGroup {
+            margin-top: 10px;
+
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+    <body>
+        <h1>New Task</h1>
+        <div>
+            
+            @using (Html.BeginForm("Save","Tasks"))
+            {
+                @Html.HiddenFor(m => m.Id);
+                <div class="fieldGroup">
+                    <label for="taskName">Task :</label>
+                    @Html.TextBoxFor(m => m.Name)  
+                    <span class="error">@Html.ValidationMessageFor(m => m.Name)</span>
+                </div>
+                <div class="fieldGroup">
+                    <label for="taskDescription">Description :</label>
+                    @Html.TextAreaFor(m => m.Description,new {rows = 10, cols = 60})
+                    <span class="error">@Html.ValidationMessageFor(m => m.Description)</span>
+                </div>
+                <div class="fieldGroup">
+                    Is Completed? @Html.CheckBoxFor(m => m.IsCompleted)
+                </div>
+                <div class="fieldGroup">
+                    <input type="submit" name="btnSubmit" value="Save" />
+                    <a href="/tasks/index">Cancel</a>    
+                </div>
+            }
+
+            
+        </div>
+    </body>
+</html>
