@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" manifest="app.manifest">
+<head>
+	<meta charset="UTF-8">
+	<title>Task Manager - Ver 2.0</title>
+	<link rel="stylesheet" href="TaskManager.css">
+	<link rel="stylesheet" href="TaskManager-online.css">
+	<script src="TaskStorage.js"></script>
+	<script src="TaskManager.js"></script>
+	
+	<script type="text/javascript">
+		applicationCache.addEventListener("updateready", function(){
+			var response = confirm("A new version of the application is available. Do you want to use it?")
+			if (response)
+				window.location.reload();
+		});
+	</script>
+</head>
+<body>
+	<h1>Task Manager - Ver 2.0</h1>
+	<div class="content">
+		<span>Task :</span>
+		<input type="text" name="" id="txtTask">
+		<input type="button" value="Add Task" id="btnAddTask">
+		<input type="button" value="Remove Completed" id="btnRemoveCompleted">
+		<ul id="ulTaskList"></ul>
+	</div>
+</body>
+</html>
