@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Multithreading</title>
+	<script>
+	(function(){
+		window.addEventListener("DOMContentLoaded",init);
+		var worker;
+		function init(){
+			document.getElementById("btnDoWork").addEventListener("click", onBtnDoWorkClick);
+			worker = new Worker("hardWorker.js");
+			worker.addEventListener("message", onMessageFromWorker);
+		}
+		function onMessageFromWorker(msgArg){
+			var data = msgArg.data;
+			if (data.type === "done"){
+				document.getElementById("progress").value = 100;
+				displayMessage("Work Completed..");
+			} else if (data.type === "progress"){
+				document.getElementById("progress").value = data.percentCompleted;
+			} else {
+				console.log("Unknown message from worker", msgArg);
+			}
+		}
+		function onBtnDoWorkClick(){
+			displayMessage("Work Started..");
+			worker.postMessage("start");
+			
+		}
+		
+		function displayMessage(msg){
+			document.getElementById("divMessages").innerHTML += msg + "<br/>";
+		}
+	})();
+	</script>
+</head>
+<body>
+	<input type="text" name="" id="">
+	<input type="button" value="Do Work" id="btnDoWork">
+	<div>
+		<progress id="progress" min="0" max="100" value="0"></progress>
+	</div>
+	<div id="divMessages"></div>
+</body>
+</html>
