@@ -1,0 +1,6 @@
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRSocketServer\bin\Debug\TRSocketServer.exe
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRSocketServer\bin\Debug\TRSocketServer.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRSocketServer\bin\Debug\Fleck.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRSocketServer\obj\Debug\TRSocketServer.csprojResolveAssemblyReference.cache
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRSocketServer\obj\Debug\TRSocketServer.exe
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRSocketServer\obj\Debug\TRSocketServer.pdb

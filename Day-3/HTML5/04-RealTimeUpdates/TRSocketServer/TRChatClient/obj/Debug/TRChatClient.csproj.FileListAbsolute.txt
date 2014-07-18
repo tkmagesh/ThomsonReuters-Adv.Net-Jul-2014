@@ -1,0 +1,5 @@
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRChatClient\bin\TRChatClient.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRChatClient\bin\TRChatClient.pdb
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRChatClient\obj\Debug\TRChatClient.csprojResolveAssemblyReference.cache
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRChatClient\obj\Debug\TRChatClient.dll
+D:\Training\ThomsonReuters-Adv.Net-Jul-2014\Day-3\HTML5\04-RealTimeUpdates\TRSocketServer\TRChatClient\obj\Debug\TRChatClient.pdb
