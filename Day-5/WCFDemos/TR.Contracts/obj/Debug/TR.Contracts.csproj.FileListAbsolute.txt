@@ -1,0 +1,5 @@
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TR.Contracts\bin\Debug\TR.Contracts.dll
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TR.Contracts\bin\Debug\TR.Contracts.pdb
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TR.Contracts\obj\Debug\ResolveAssemblyReference.cache
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TR.Contracts\obj\Debug\TR.Contracts.dll
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TR.Contracts\obj\Debug\TR.Contracts.pdb

@@ -1,0 +1,10 @@
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\bin\Debug\TRServicesHost.exe
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\bin\Debug\TRServicesHost.pdb
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\bin\Debug\TR.Contracts.dll
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\bin\Debug\TR.Services.dll
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\bin\Debug\TR.Contracts.pdb
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\bin\Debug\TR.Services.pdb
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\obj\x86\Debug\TRServicesHost.exe
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\obj\x86\Debug\TRServicesHost.pdb
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\TRServicesHost\bin\Debug\TRServicesHost.exe.config

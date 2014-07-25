@@ -1,0 +1,9 @@
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\RT.ServiceTests\bin\Debug\RT.ServiceTests.exe
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\RT.ServiceTests\bin\Debug\RT.ServiceTests.pdb
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\RT.ServiceTests\bin\Debug\TR.Contracts.dll
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\RT.ServiceTests\bin\Debug\TR.Services.dll
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\RT.ServiceTests\bin\Debug\TR.Contracts.pdb
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\RT.ServiceTests\bin\Debug\TR.Services.pdb
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\RT.ServiceTests\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\RT.ServiceTests\obj\x86\Debug\RT.ServiceTests.exe
+D:\Git\ThomsonReuters-Adv.Net-Jul-2014\Day-5\WCFDemos\RT.ServiceTests\obj\x86\Debug\RT.ServiceTests.pdb
