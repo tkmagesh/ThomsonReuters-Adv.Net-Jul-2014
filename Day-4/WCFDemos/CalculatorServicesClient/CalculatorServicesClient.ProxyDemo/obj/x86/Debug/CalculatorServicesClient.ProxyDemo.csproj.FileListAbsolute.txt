@@ -1,0 +1,6 @@
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServicesClient\CalculatorServicesClient.ProxyDemo\bin\Debug\CalculatorServicesClient.ProxyDemo.exe.config
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServicesClient\CalculatorServicesClient.ProxyDemo\bin\Debug\CalculatorServicesClient.ProxyDemo.exe
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServicesClient\CalculatorServicesClient.ProxyDemo\bin\Debug\CalculatorServicesClient.ProxyDemo.pdb
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServicesClient\CalculatorServicesClient.ProxyDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServicesClient\CalculatorServicesClient.ProxyDemo\obj\x86\Debug\CalculatorServicesClient.ProxyDemo.exe
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServicesClient\CalculatorServicesClient.ProxyDemo\obj\x86\Debug\CalculatorServicesClient.ProxyDemo.pdb

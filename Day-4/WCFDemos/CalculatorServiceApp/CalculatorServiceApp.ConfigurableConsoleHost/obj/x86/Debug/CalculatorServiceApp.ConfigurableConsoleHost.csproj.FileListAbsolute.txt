@@ -1,0 +1,10 @@
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\bin\Debug\CalculatorServiceApp.ConfigurableConsoleHost.exe.config
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\bin\Debug\CalculatorServiceApp.ConfigurableConsoleHost.exe
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\bin\Debug\CalculatorServiceApp.ConfigurableConsoleHost.pdb
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\bin\Debug\CalculatorServicesApp.Contracts.dll
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\bin\Debug\CalculatorServicesApp.Services.dll
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\bin\Debug\CalculatorServicesApp.Services.pdb
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\bin\Debug\CalculatorServicesApp.Contracts.pdb
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\obj\x86\Debug\CalculatorServiceApp.ConfigurableConsoleHost.exe
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp.ConfigurableConsoleHost\obj\x86\Debug\CalculatorServiceApp.ConfigurableConsoleHost.pdb

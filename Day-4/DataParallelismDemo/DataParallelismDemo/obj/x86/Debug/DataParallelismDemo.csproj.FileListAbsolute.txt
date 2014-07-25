@@ -1,0 +1,5 @@
+D:\Training\ThomsonReuters\Day-4\DataParallelismDemo\DataParallelismDemo\bin\Debug\DataParallelismDemo.exe
+D:\Training\ThomsonReuters\Day-4\DataParallelismDemo\DataParallelismDemo\bin\Debug\DataParallelismDemo.pdb
+D:\Training\ThomsonReuters\Day-4\DataParallelismDemo\DataParallelismDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Training\ThomsonReuters\Day-4\DataParallelismDemo\DataParallelismDemo\obj\x86\Debug\DataParallelismDemo.exe
+D:\Training\ThomsonReuters\Day-4\DataParallelismDemo\DataParallelismDemo\obj\x86\Debug\DataParallelismDemo.pdb

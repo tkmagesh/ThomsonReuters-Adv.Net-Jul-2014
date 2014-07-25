@@ -1,0 +1,9 @@
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp\bin\Debug\CalculatorServiceApp.exe
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp\bin\Debug\CalculatorServiceApp.pdb
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp\obj\x86\Debug\CalculatorServiceApp.exe
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp\obj\x86\Debug\CalculatorServiceApp.pdb
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp\bin\Debug\CalculatorServicesApp.Contracts.dll
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp\bin\Debug\CalculatorServicesApp.Contracts.pdb
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp\bin\Debug\CalculatorServicesApp.Services.dll
+D:\Training\ThomsonReuters\Day-4\WCFDemos\CalculatorServiceApp\CalculatorServiceApp\bin\Debug\CalculatorServicesApp.Services.pdb

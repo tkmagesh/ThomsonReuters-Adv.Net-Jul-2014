@@ -1,0 +1,13 @@
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\App.g.cs
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\TaskParallelismDemo_MarkupCompile.cache
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\MainWindow.baml
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\MainWindow.g.cs
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\TaskParallelismDemo.g.resources
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\TaskParallelismDemo.Properties.Resources.resources
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\bin\Debug\TaskParallelismDemo.exe
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\bin\Debug\TaskParallelismDemo.pdb
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\TaskParallelismDemo.exe
+D:\Training\ThomsonReuters\Day-4\TaskParallelismDemo\TaskParallelismDemo\obj\x86\Debug\TaskParallelismDemo.pdb
